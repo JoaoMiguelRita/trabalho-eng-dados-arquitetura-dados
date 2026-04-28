@@ -1,0 +1,139 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "1f78b326-3374-4a76-beef-63ed3d608f46",
+  "location" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1777410005378,
+  "last-column-id" : 7,
+  "current-schema-id" : 1,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "nm_modelo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "nm_marca",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "valor",
+      "required" : false,
+      "type" : "decimal(10, 2)"
+    }, {
+      "id" : 5,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "potencia",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 1,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "nm_modelo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "nm_marca",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "valor",
+      "required" : false,
+      "type" : "decimal(10, 2)"
+    }, {
+      "id" : 5,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "potencia",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "fl_inverter",
+      "required" : false,
+      "type" : "boolean"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "miguel",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 7889702980020114209,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 7889702980020114209,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 7889702980020114209,
+    "timestamp-ms" : 1777409993733,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1777409648872",
+      "added-data-files" : "3",
+      "added-records" : "3",
+      "added-files-size" : "5124",
+      "changed-partition-count" : "1",
+      "total-records" : "3",
+      "total-files-size" : "5124",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-7889702980020114209-1-92d7badc-7e75-4643-87fc-026c4200134f.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1777409993733,
+    "snapshot-id" : 7889702980020114209
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1777409657060,
+    "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1777409993733,
+    "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v2.metadata.json"
+  } ]
+}
