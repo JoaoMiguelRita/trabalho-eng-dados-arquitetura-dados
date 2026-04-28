@@ -1,0 +1,1 @@
+O arquivo `uv.lock` garante a reprodutibilidade do ambiente, fixando as versões exatas das dependências utilizadas no projeto.
