@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "1f78b326-3374-4a76-beef-63ed3d608f46",
+  "table-uuid" : "980ffe3b-07fa-4375-8dcf-00fb2bbc55f6",
   "location" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg",
   "last-sequence-number" : 4,
-  "last-updated-ms" : 1777410035286,
+  "last-updated-ms" : 1777415475775,
   "last-column-id" : 8,
   "current-schema-id" : 2,
   "schemas" : [ {
@@ -139,20 +139,20 @@
     "owner" : "miguel",
     "write.parquet.compression-codec" : "zstd"
   },
-  "current-snapshot-id" : 1259861069044737262,
+  "current-snapshot-id" : 3677172957675048954,
   "refs" : {
     "main" : {
-      "snapshot-id" : 1259861069044737262,
+      "snapshot-id" : 3677172957675048954,
       "type" : "branch"
     }
   },
   "snapshots" : [ {
     "sequence-number" : 1,
-    "snapshot-id" : 7889702980020114209,
-    "timestamp-ms" : 1777409993733,
+    "snapshot-id" : 3077773911080124265,
+    "timestamp-ms" : 1777415451653,
     "summary" : {
       "operation" : "append",
-      "spark.app.id" : "local-1777409648872",
+      "spark.app.id" : "local-1777415424304",
       "added-data-files" : "3",
       "added-records" : "3",
       "added-files-size" : "5124",
@@ -164,16 +164,16 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-7889702980020114209-1-92d7badc-7e75-4643-87fc-026c4200134f.avro",
+    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-3077773911080124265-1-a5d6c1e4-ff40-4a5e-b5a7-e3e331918db9.avro",
     "schema-id" : 0
   }, {
     "sequence-number" : 2,
-    "snapshot-id" : 3549964893078958025,
-    "parent-snapshot-id" : 7889702980020114209,
-    "timestamp-ms" : 1777410019294,
+    "snapshot-id" : 3417640550097255098,
+    "parent-snapshot-id" : 3077773911080124265,
+    "timestamp-ms" : 1777415467469,
     "summary" : {
       "operation" : "overwrite",
-      "spark.app.id" : "local-1777409648872",
+      "spark.app.id" : "local-1777415424304",
       "added-data-files" : "1",
       "deleted-data-files" : "2",
       "added-records" : "2",
@@ -188,16 +188,16 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-3549964893078958025-1-02237f43-f5e5-48ab-9128-5f7100c78d4b.avro",
+    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-3417640550097255098-1-0ebe7338-ffcf-468e-9349-6a9b79ecf179.avro",
     "schema-id" : 2
   }, {
     "sequence-number" : 3,
-    "snapshot-id" : 2153534694765547199,
-    "parent-snapshot-id" : 3549964893078958025,
-    "timestamp-ms" : 1777410031028,
+    "snapshot-id" : 6951489326298648433,
+    "parent-snapshot-id" : 3417640550097255098,
+    "timestamp-ms" : 1777415473194,
     "summary" : {
       "operation" : "overwrite",
-      "spark.app.id" : "local-1777409648872",
+      "spark.app.id" : "local-1777415424304",
       "added-data-files" : "1",
       "deleted-data-files" : "1",
       "added-records" : "1",
@@ -212,16 +212,16 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-2153534694765547199-1-fe2b82bf-073e-4525-91ca-76c2157e0b3d.avro",
+    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-6951489326298648433-1-51e9e0c5-412c-49ee-8d83-5bb80735e886.avro",
     "schema-id" : 2
   }, {
     "sequence-number" : 4,
-    "snapshot-id" : 1259861069044737262,
-    "parent-snapshot-id" : 2153534694765547199,
-    "timestamp-ms" : 1777410035286,
+    "snapshot-id" : 3677172957675048954,
+    "parent-snapshot-id" : 6951489326298648433,
+    "timestamp-ms" : 1777415475775,
     "summary" : {
       "operation" : "delete",
-      "spark.app.id" : "local-1777409648872",
+      "spark.app.id" : "local-1777415424304",
       "deleted-data-files" : "1",
       "deleted-records" : "1",
       "removed-files-size" : "2233",
@@ -233,41 +233,41 @@
       "total-position-deletes" : "0",
       "total-equality-deletes" : "0"
     },
-    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-1259861069044737262-1-3fd26aa0-2de8-4285-ac97-5a7e2ed0573a.avro",
+    "manifest-list" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/snap-3677172957675048954-1-744a07fd-80f1-422a-8dfe-53e761f9734d.avro",
     "schema-id" : 2
   } ],
   "statistics" : [ ],
   "partition-statistics" : [ ],
   "snapshot-log" : [ {
-    "timestamp-ms" : 1777409993733,
-    "snapshot-id" : 7889702980020114209
+    "timestamp-ms" : 1777415451653,
+    "snapshot-id" : 3077773911080124265
   }, {
-    "timestamp-ms" : 1777410019294,
-    "snapshot-id" : 3549964893078958025
+    "timestamp-ms" : 1777415467469,
+    "snapshot-id" : 3417640550097255098
   }, {
-    "timestamp-ms" : 1777410031028,
-    "snapshot-id" : 2153534694765547199
+    "timestamp-ms" : 1777415473194,
+    "snapshot-id" : 6951489326298648433
   }, {
-    "timestamp-ms" : 1777410035286,
-    "snapshot-id" : 1259861069044737262
+    "timestamp-ms" : 1777415475775,
+    "snapshot-id" : 3677172957675048954
   } ],
   "metadata-log" : [ {
-    "timestamp-ms" : 1777409657060,
+    "timestamp-ms" : 1777415439497,
     "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v1.metadata.json"
   }, {
-    "timestamp-ms" : 1777409993733,
+    "timestamp-ms" : 1777415451653,
     "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v2.metadata.json"
   }, {
-    "timestamp-ms" : 1777410005378,
+    "timestamp-ms" : 1777415459312,
     "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v3.metadata.json"
   }, {
-    "timestamp-ms" : 1777410005443,
+    "timestamp-ms" : 1777415459344,
     "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v4.metadata.json"
   }, {
-    "timestamp-ms" : 1777410019294,
+    "timestamp-ms" : 1777415467469,
     "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v5.metadata.json"
   }, {
-    "timestamp-ms" : 1777410031028,
+    "timestamp-ms" : 1777415473194,
     "metadata-file" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg/metadata/v6.metadata.json"
   } ]
 }

@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "1f78b326-3374-4a76-beef-63ed3d608f46",
+  "table-uuid" : "980ffe3b-07fa-4375-8dcf-00fb2bbc55f6",
   "location" : "spark-warehouse-iceberg/db/ar_condicionado_iceberg",
   "last-sequence-number" : 0,
-  "last-updated-ms" : 1777409657060,
+  "last-updated-ms" : 1777415439497,
   "last-column-id" : 6,
   "current-schema-id" : 0,
   "schemas" : [ {
